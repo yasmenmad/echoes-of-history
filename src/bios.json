@@ -1,0 +1,47 @@
+{
+  "napoleon": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/500px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Carlo_Buonaparte.jpg/500px-Carlo_Buonaparte.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Henri_F%C3%A9lix_Emmanuel_Philippoteaux_-_Portrait_of_Napoleon_Bonaparte.jpg/500px-Henri_F%C3%A9lix_Emmanuel_Philippoteaux_-_Portrait_of_Napoleon_Bonaparte.jpg"
+  ],
+  "cleopatra": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/500px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Srxtail2.svg/60px-Srxtail2.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cleopatra_VII%2C_dalla_via_appia_tra_ariccia_e_genzano%2C_40-30_ac_ca._01.JPG/500px-Cleopatra_VII%2C_dalla_via_appia_tra_ariccia_e_genzano%2C_40-30_ac_ca._01.JPG"
+  ],
+  "tesla": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/500px-Tesla_circa_1890.jpeg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Nikola_Tesla_Memorial_Center.JPG/500px-Nikola_Tesla_Memorial_Center.JPG",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a2/Milutin_Tesla.jpg"
+  ],
+  "leonardo": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/500px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Firma_de_Leonardo_Da_Vinci.svg/330px-Firma_de_Leonardo_Da_Vinci.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Baptism_record_of_Leonardo_Da_Vinci.jpg/500px-Baptism_record_of_Leonardo_Da_Vinci.jpg"
+  ],
+  "einstein": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/500px-Albert_Einstein_Head_cleaned.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Albert_Einstein_at_the_age_of_three_%281882%29.jpg/330px-Albert_Einstein_at_the_age_of_three_%281882%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hermann_einstein.jpg/330px-Hermann_einstein.jpg"
+  ],
+  "frida": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/500px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Guillermo_Kahlo_-_Frida_Kahlo%2C_June_15%2C_1919_-_Google_Art_Project_%28restored%29.jpg/500px-Guillermo_Kahlo_-_Frida_Kahlo%2C_June_15%2C_1919_-_Google_Art_Project_%28restored%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Frida_Kahlo_-_1926_WaPo.jpg/500px-Frida_Kahlo_-_1926_WaPo.jpg"
+  ],
+  "genghis": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/500px-YuanEmperorAlbumGenghisPortrait.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg/500px-YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jame%27_al-Tavarikh_%28Compendium_of_Chronicles%29_manuscript_by_Rashid_al-Din_Fazlullah%2C_Iran%2C_early_15th_century_AD%2C_ink%2C_watercolour%2C_and_gold_on_paper_-_Aga_Khan_Museum_-_Toronto%2C_Canada_-_DSC06735.jpg/500px-thumbnail.jpg"
+  ],
+  "curie": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/500px-Marie_Curie_c._1920s.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Warszawa%2C_ul._Freta_16_20170516_002.jpg/500px-Warszawa%2C_ul._Freta_16_20170516_002.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sklodowski_Family_Wladyslaw_and_his_daughters_Maria_Bronislawa_Helena.jpg/500px-Sklodowski_Family_Wladyslaw_and_his_daughters_Maria_Bronislawa_Helena.jpg"
+  ],
+  "shakespeare": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/500px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/William_Shakespeares_birthplace%2C_Stratford-upon-Avon_26l2007.jpg/500px-William_Shakespeares_birthplace%2C_Stratford-upon-Avon_26l2007.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/William-Shakespeare_CoA_1602.jpg/500px-William-Shakespeare_CoA_1602.jpg"
+  ]
+}
