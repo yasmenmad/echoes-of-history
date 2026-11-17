@@ -741,7 +741,7 @@ const ShakespearePortrait = ({ size = 200, glow = false, mood = "neutral", eyeX 
 );
 
 const ImgPortrait = ({ charId, size, glow }) => (
-  <img src={`/${charId}_avatar.png`} style={{ width: size, height: size * 1.4, objectFit: "cover", borderRadius: "inherit", filter: glow ? "brightness(1.2) contrast(1.1)" : "brightness(0.9)", transition: "all 0.5s", display: "block" }} alt={charId} />
+  <img src={`./public/${charId}_avatar.png`} style={{ width: size, height: size * 1.4, objectFit: "cover", borderRadius: "inherit", filter: glow ? "brightness(1.2) contrast(1.1)" : "brightness(0.9)", transition: "all 0.5s", display: "block" }} alt={charId} />
 );
 const PORTRAITS = {
   napoleon: p => <ImgPortrait charId="napoleon" {...p} />,
@@ -971,7 +971,7 @@ const DreamRoomWorld = () => (
 
 const ImgWorld = ({ charId, mood }) => {
   const filter = mood === "angry" || mood === "fierce" ? "hue-rotate(20deg) saturate(1.5)" : mood === "sad" || mood === "melancholy" ? "grayscale(0.5) brightness(0.7)" : "none";
-  return <div style={{width:"100%", height:"100%", backgroundImage:`url('/${charId}_bg.png')`, backgroundSize:"cover", backgroundPosition:"center", filter, transition:"filter 2s ease", animation:"breathe 20s ease-in-out infinite alternate"}} />;
+  return <div style={{width:"100%", height:"100%", backgroundImage:`url('./public/' + charId + '_bg.png')`, backgroundSize:"cover", backgroundPosition:"center", filter, transition:"filter 2s ease", animation:"breathe 20s ease-in-out infinite alternate"}} />;
 };
 const WORLD_SCENES = {
   napoleon: p => <ImgWorld charId="napoleon" {...p} />,
@@ -1106,7 +1106,7 @@ const EyeTrackingPortrait = ({ charId, size, mood, uid, glow }) => {
     const texture = gl.createTexture();
     const image = new Image();
     image.crossOrigin = "anonymous";
-    image.src = '/' + charId + '_avatar.png';
+    image.src = './public/' + charId + '_avatar.png';
     image.onload = () => {
       gl.bindTexture(gl.TEXTURE_2D, texture);
       gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
@@ -2010,10 +2010,10 @@ const WorldScreen = ({ charId, nodeIdx, fateCards, onBack, onMemoryUpdate }) => 
   if (interactionMode === "menu") {
     return (
       <div style={{ position:"fixed", inset:0, background:"#000", display:"flex", alignItems:"center", justifyContent:"center" }}>
-        <img src={`/${charId}_bg.png`} style={{ position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", opacity:0.3, filter:"blur(8px)" }} />
+        <img src={`./public/${charId}_bg.png`} style={{ position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", opacity:0.3, filter:"blur(8px)" }} />
         <div style={{ position:"relative", zIndex:10, textAlign:"center", animation:"fadeUp 0.6s ease" }}>
            <div style={{ width:120, height:168, borderRadius:60, overflow:"hidden", border:`2px solid ${char.color}`, margin:"0 auto 24px", boxShadow:`0 0 40px ${char.color}66` }}>
-              <img src={`/${charId}_avatar.png`} style={{ width:"100%", height:"100%", objectFit:"cover" }} />
+              <img src={`./public/${charId}_avatar.png`} style={{ width:"100%", height:"100%", objectFit:"cover" }} />
            </div>
            <div style={{ fontFamily:"'Cinzel Decorative',serif", fontSize:40, color:"#fff", textShadow:"0 4px 20px rgba(0,0,0,0.8)", marginBottom:8 }}>{char.name}</div>
            <div style={{ fontFamily:"'Cinzel',serif", fontSize:12, letterSpacing:"0.4em", color:char.color, marginBottom:40 }}>CHOOSE COMMUNICATION LINK</div>
@@ -2032,7 +2032,7 @@ const WorldScreen = ({ charId, nodeIdx, fateCards, onBack, onMemoryUpdate }) => 
   if (interactionMode === "voiceCall") {
     return (
       <div style={{ position:"fixed", inset:0, background:"#050505", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center" }}>
-        <img src={`/${charId}_bg.png`} style={{ position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", opacity:0.1, filter:"blur(20px)" }} />
+        <img src={`./public/${charId}_bg.png`} style={{ position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", opacity:0.1, filter:"blur(20px)" }} />
         <div style={{ position:"absolute", top:60, textAlign:"center", zIndex:10 }}>
            <div style={{ fontFamily:"'Cinzel',serif", fontSize:14, letterSpacing:"0.3em", color:"#40FF80", animation:"glowPulse 2s infinite" }}>SECURE VOICE LINK ESTABLISHED</div>
            <div style={{ fontFamily:"'Cinzel Decorative',serif", fontSize:40, color:"#fff", marginTop:16 }}>{char.name}</div>
@@ -2055,7 +2055,7 @@ const WorldScreen = ({ charId, nodeIdx, fateCards, onBack, onMemoryUpdate }) => 
   if (interactionMode === "videoCall") {
     return (
       <div style={{ position:"fixed", inset:0, background:"#000", overflow:"hidden" }}>
-        <img src={`/${charId}_avatar.png`} style={{ width:"100%", height:"100%", objectFit:"cover", filter:`brightness(${loading?0.4:0.9}) contrast(1.15) saturate(1.1)`, transition:"all 0.5s", animation: (!loading && msgs.length && msgs[msgs.length-1].role==="assistant") ? "breathe 3s ease-in-out infinite alternate" : "none" }} />
+        <img src={`./public/${charId}_avatar.png`} style={{ width:"100%", height:"100%", objectFit:"cover", filter:`brightness(${loading?0.4:0.9}) contrast(1.15) saturate(1.1)`, transition:"all 0.5s", animation: (!loading && msgs.length && msgs[msgs.length-1].role==="assistant") ? "breathe 3s ease-in-out infinite alternate" : "none" }} />
         <div style={{ position:"absolute", inset:0, background:"repeating-linear-gradient(transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px)", pointerEvents:"none" }} />
         <div style={{ position:"absolute", inset:0, boxShadow:"inset 0 0 160px rgba(0,0,0,0.9)", pointerEvents:"none" }} />
         
